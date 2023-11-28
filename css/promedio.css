@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #cfe2f3; /* Cambiado el color de fondo a celeste */
+}
+
+.container {
+  width: 300px;
+  margin: 40px auto; /* Alineado al centro y aumentado el margen */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Estilos para los campos de entrada */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+select {
+  width: 100%; /* Reducido el ancho de los campos de entrada */
+  padding: 8px; /* Reducido el padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px; /* Reducido el tamaño del texto */
+}
+
+input[type="submit"] {
+  padding: 10px; /* Reducido el padding */
+  font-size: 14px; /* Reducido el tamaño del texto */
+  width: 100%; /* Reducido el ancho del botón */
+  margin: 0 auto; /* Alineación horizontal */
+  background-color: #004794; /* Color de fondo azul */
+  color: #fff; /* Color de texto blanco */
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.input-group.small {
+  width: 80%; /* Reducir el ancho de los campos de entrada */
+  margin: 0 auto; /* Alineación horizontal */
+}
+
+.resultados {
+  margin-top: 10px; /* Reducido el margen superior */
+  padding: 8px; /* Reducido el padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.resultados p {
+  margin: 5px 0;
+}
